@@ -1,0 +1,10 @@
+.my-reservations{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+    gap: 1rem;
+}
+h1 {
+    font-size: 2rem;
+}
