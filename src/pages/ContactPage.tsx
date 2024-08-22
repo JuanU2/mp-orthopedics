@@ -1,8 +1,7 @@
 // ContactPage.js
 import "../cssStyles/contact.css"
-import { Paper, Typography, Grid } from '@mui/material';
+import { Typography } from '@mui/material';
 import Doctor from "../photos/doctor.webp"
-import ContactForm from "@/components/ContactForm";
 
 function ContactPage() {
   return (

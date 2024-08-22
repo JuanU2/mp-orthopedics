@@ -1,12 +1,7 @@
-import obrazok1 from '../photos/clinic.webp';
-import obrazok2 from '../photos/obrazok3.webp';
-import obrazok3 from '../photos/obrazok2.webp';
 import logo from '../photos/logo.png'
-import ImageSlider from '../components/ImageSlider';
 import ScrollToTop from '../components/ScrollTop';
 import OrdinacneHodiny from '@/components/OrdinacneHodiny';
 
-const IMAGES = [obrazok1, obrazok2, obrazok3];
 
 const HomePage = () => {
   return (
