@@ -11,6 +11,7 @@ export default function NavBar() {
         <Link
           to="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
+          onClick={() => setIsOpen(false)}
         >
           <img src={Icon} className="h-8" alt="Logo" />
           <span className="self-center text-2xl whitespace-nowrap text-white">
@@ -55,6 +56,7 @@ export default function NavBar() {
                 to="/"
                 className="block py-2 px-3 text-white rounded hover:bg-blue-600 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 aria-current="page"
+                onClick={() => setIsOpen(false)}
               >
                 Domov
               </Link>
@@ -63,6 +65,7 @@ export default function NavBar() {
               <Link
                 to="/reservation"
                 className="block py-2 px-3 text-white rounded hover:bg-blue-600 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                onClick={() => setIsOpen(false)}
               >
                 Rezervácia
               </Link>
