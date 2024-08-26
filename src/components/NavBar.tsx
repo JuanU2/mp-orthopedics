@@ -13,8 +13,8 @@ export default function NavBar() {
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img src={Icon} className="h-8" alt="Logo" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
-            MP ORTHOPEDICS
+          <span className="self-center text-2xl whitespace-nowrap text-white">
+            MUDr. Michal Prádel
           </span>
         </Link>
         <button
