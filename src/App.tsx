@@ -4,7 +4,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./Layout.tsx";
 import HomePage from "./pages/HomePage.tsx";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import ContactPage from "./pages/ContactPage.tsx";
 import Reservation from "./pages/Reservation.tsx";
 
 const router = createBrowserRouter([
@@ -19,10 +18,6 @@ const router = createBrowserRouter([
       {
         path: "reservation",
         element: <Reservation/>,
-      },
-      {
-        path: "contact",
-        element: <ContactPage />,
       },
     ],
   },

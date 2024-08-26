@@ -41,25 +41,6 @@ body
     background-color: rgba(250, 250, 250, 0.795);
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    max-height: 12vh;
-    margin-top: 1em;
-    margin-left: 2em;
-    margin-right: 2em;
-    border-radius: 0.7em;
-    position: sticky;
-    top: 0;
-}
-
-.navbar--style
-{
-    background: linear-gradient(to right, rgb(169, 176, 245), rgb(53, 156, 224));
-    box-shadow: 5px 5px 15px rgb(46, 45, 45);
-    transition: height 1s ease-in-out;
-}
-
 .navbar.sticky
 {
     border-radius: 0;
