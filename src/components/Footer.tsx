@@ -20,7 +20,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        &copy; {new Date().getFullYear()} | MP ORTHOPEDICS
+        &copy; {new Date().getFullYear()} | <strong>MP-ORTHOPEDICS</strong>
       </div>
     </footer>
   );
