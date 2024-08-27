@@ -7,7 +7,7 @@ import Child from "../photos/child.svg"
 export default function Reservation() {
     const [showMenuBox, setShowMenuBox] = useState(false)
   return (
-    <div className="flex flex-col gap-6 h-full p-6">
+    <main className="flex flex-col gap-6 h-full p-6">
         <h1 className="w-full flex items-center justify-center text-3xl md:text-4xl">Rezervácia časenky</h1>
         <div className="text-center p-6">
             Rezervácia časenky prebieha cez rezervačný portál <strong> <a href="https://www.ecasenka.sk/"> eČasenka </a> </strong>.
@@ -57,6 +57,6 @@ export default function Reservation() {
                 </div>
             </div>
         </div>}
-    </div>
+    </main>
   )
 }
