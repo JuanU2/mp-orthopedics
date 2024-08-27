@@ -26,8 +26,8 @@ export default function OrdinacneHodiny() {
         <div className="text-white  overflow-hidden flex flex-col items-center justify-center text-sm md:text-base lg:text-lg p-2 border-r-2 border-b-2 border-white">13:30</div>
         <div className="text-white  col-span-2 overflow-hidden flex flex-col items-center  text-sm md:text-base lg:text-lg justify-center p-2 border-b-2 border-white">6:30-8:00 Preväzy a injekcie</div>
         <div className="text-white  overflow-hidden flex flex-col items-center justify-center text-sm md:text-base lg:text-lg p-2 border-r-2 border-white col-span-2">Piatok</div>
-        <div className="text-white  overflow-hidden flex flex-col items-center justify-center text-sm md:text-base lg:text-lg p-2 border-r-2 border-white">6:30</div>
-        <div className="text-white  overflow-hidden flex flex-col items-center justify-center text-sm md:text-base lg:text-lg p-2 border-r-2 border-white">13:30</div>
+        <div className="text-white  overflow-hidden flex flex-col items-center justify-center text-sm md:text-base lg:text-lg p-2 border-r-2 border-white">7:00</div>
+        <div className="text-white  overflow-hidden flex flex-col items-center justify-center text-sm md:text-base lg:text-lg p-2 border-r-2 border-white">14:00</div>
         <div className="text-white  col-span-2 overflow-hidden flex flex-col items-center text-sm md:text-base lg:text-lg justify-center p-2">MUDr. Matúš Krasničan</div>
         
 

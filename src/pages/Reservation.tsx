@@ -11,10 +11,10 @@ export default function Reservation() {
         <h1 className="w-full flex items-center justify-center text-3xl md:text-4xl">Rezervácia časenky</h1>
         <div className="text-center p-6">
             Rezervácia časenky prebieha cez rezervačný portál <strong> <a href="https://www.ecasenka.sk/"> eČasenka </a> </strong>.
-            <h2 className="text-center text-lg">
-                Alebo aj na mieste je možnosť vytlačiť si časenku pred ambulanciou - (počet 10 lístkov). <br />
-                Tlač lístkov začína o <strong>6:15</strong> <br />
-                a v <strong>detský deň (streda) o 10:30</strong>.
+            <h2 className="text-center">
+            Alebo je možnosť vytlačiť si časenku pred ambulanciou (10 lístkov) <br />
+            Tlač lístkov začína o <strong>6:15</strong> <br />
+            a v <strong>detský deň (streda) o 10:30</strong>.
             </h2>
         </div>
         <div className="flex justify-center items-center w-full">
