@@ -10,16 +10,16 @@ const HomePage = () => {
       <ScrollToTop />
       <main className="grid grid-cols-1 md:grid-cols-2 p-6 md:p-12 gap-6">
         <article className='flex flex-col justify-center items-center text-center'>
-        <p className='text-2xl md:text-3xl'>
+        <h1 className='text-2xl md:text-3xl'>
             MP-ORTHOPEDICS
-        </p>
+        </h1>
             <img className="w-48 md:w-80" src={logo} />
-          <p className="text-xl md:text-2xl">
+          <h2 className="text-xl md:text-2xl">
             ORTOPEDICKÁ AMBULANCIA <br/>NÁMESTOVO
-          </p>
+          </h2>
         </article>
         <OrdinacneHodiny/>
-        <div className='md:col-span-2 p-2 md:p-6 text-center'>
+        <section className='md:col-span-2 p-2 md:p-6 text-center'>
             <h1 className='p-6 text-2xl md:text-4xl'>
                 Lokalita
             </h1>
@@ -27,7 +27,7 @@ const HomePage = () => {
                 <strong>Adresa:</strong> Červeného Kríža 62/30, 02901 Námestovo
             </h2>
             <LocationMap/>
-        </div>
+        </section>
       </main>
     </div>
   )
