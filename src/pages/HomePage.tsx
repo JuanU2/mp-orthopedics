@@ -11,7 +11,7 @@ const HomePage = () => {
       <main className="grid grid-cols-1 md:grid-cols-2 p-6 md:p-12 gap-6">
         <article className='flex flex-col justify-center items-center text-center'>
         <p className='text-2xl md:text-3xl'>
-            MP ORTHOPEDICS
+            MP-ORTHOPEDICS
         </p>
             <img className="w-48 md:w-80" src={logo} />
           <p className="text-xl md:text-2xl">
