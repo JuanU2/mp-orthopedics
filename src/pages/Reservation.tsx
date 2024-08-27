@@ -14,7 +14,7 @@ export default function Reservation() {
             <h2 className="text-center text-lg">
                 Alebo aj na mieste je možnosť vytlačiť si časenku pred ambulanciou - (10 lístkov). <br />
                 Tlač lístkov začína o <strong>6:15</strong> <br />
-                a v <strong>detský deň (streda) 10:30</strong>.
+                a v <strong>detský deň (streda) o 10:30</strong>.
             </h2>
         </div>
         <div className="flex justify-center items-center w-full">
