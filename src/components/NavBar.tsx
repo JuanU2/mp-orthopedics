@@ -14,9 +14,9 @@ export default function NavBar() {
           onClick={() => setIsOpen(false)}
         >
           <img src={Icon} className="h-8" alt="Logo" />
-          <h1 className="self-center text-2xl whitespace-nowrap text-white">
+          <span className="self-center text-2xl whitespace-nowrap text-white">
             MUDr. Michal Prádel
-          </h1>
+          </span>
         </Link>
         <button
           data-collapse-toggle="navbar-multi-level"
