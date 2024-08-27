@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="footer-section links">
           <ul>
             <li><Link to="/">Domov</Link></li>
-            <li><Link to="/reservation">Rezervácia</Link></li>
+            <li><Link to="/rezervacia">Rezervácia</Link></li>
           </ul>
         </div>
       </div>
