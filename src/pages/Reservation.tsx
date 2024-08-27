@@ -12,7 +12,7 @@ export default function Reservation() {
         <div className="text-center p-6">
             Rezervácia časenky prebieha cez rezervačný portál <strong> <a href="https://www.ecasenka.sk/"> eČasenka </a> </strong>.
             <h2 className="text-center text-lg">
-                Alebo aj na mieste je možnosť vytlačiť si časenku pred ambulanciou - (10 lístkov). <br />
+                Alebo aj na mieste je možnosť vytlačiť si časenku pred ambulanciou - (počet 10 lístkov). <br />
                 Tlač lístkov začína o <strong>6:15</strong> <br />
                 a v <strong>detský deň (streda) o 10:30</strong>.
             </h2>
