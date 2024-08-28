@@ -9,7 +9,7 @@ const HomePage = () => {
   return (
     <div>
         <Helmet>
-            <link rel="canonical" href="https://pradel.sk" />
+            <link rel="canonical" href="https://www.pradel.sk/" />
             <title>MUDr. Michal Prádel - Ortopedická ambulancia Námestovo</title>
         </Helmet>
       <ScrollToTop />

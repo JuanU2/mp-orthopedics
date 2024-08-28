@@ -10,7 +10,7 @@ export default function Reservation() {
   return (
     <>
     <Helmet>
-        <link rel="canonical" href="https://pradel.sk/rezervacia" />
+        <link rel="canonical" href="https://www.pradel.sk/rezervacia" />
         <title>MUDr. Michal Prádel - Rezervácia časenky</title>
     </Helmet>
     <main className="flex flex-col gap-6 h-full p-6">
