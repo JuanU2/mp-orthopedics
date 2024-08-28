@@ -3,10 +3,16 @@ import { Card } from "@/components/ui/card"
 import { useState } from "react"
 import Adult from "../photos/adult.svg"
 import Child from "../photos/child.svg"
+import { Helmet } from "react-helmet"
 
 export default function Reservation() {
     const [showMenuBox, setShowMenuBox] = useState(false)
   return (
+    <>
+    <Helmet>
+        <link rel="canonical" href="https://pradel.sk/rezervacia" />
+        <title>MUDr. Michal Prádel - Rezervácia časenky</title>
+    </Helmet>
     <main className="flex flex-col gap-6 h-full p-6">
         <h1 className="w-full flex items-center justify-center text-3xl md:text-4xl">Rezervácia časenky</h1>
         <div className="text-center p-6">
@@ -58,5 +64,6 @@ export default function Reservation() {
             </div>
         </div>}
     </main>
+    </>
   )
 }

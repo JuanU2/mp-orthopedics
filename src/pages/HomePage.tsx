@@ -2,11 +2,16 @@ import logo from '../photos/logo.png'
 import ScrollToTop from '../components/ScrollTop';
 import OrdinacneHodiny from '@/components/OrdinacneHodiny';
 import LocationMap from '@/components/LocationMap';
+import { Helmet } from 'react-helmet';
 
 
 const HomePage = () => {
   return (
     <div>
+        <Helmet>
+            <link rel="canonical" href="https://pradel.sk" />
+            <title>MUDr. Michal Prádel - Ortopedická ambulancia Námestovo</title>
+        </Helmet>
       <ScrollToTop />
       <main className="grid grid-cols-1 md:grid-cols-2 p-6 md:p-12 gap-6">
         <article className='flex flex-col justify-center items-center text-center'>
