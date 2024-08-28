@@ -18,7 +18,7 @@ const LocationMap = () => {
             popupAnchor: [0, -28]
         })}>
                 <Popup>
-                    Ortopedická ambulancia <br /> <strong>Michal Prádel</strong> - Námestovo. <br /> <br /> Červeného Kríža 62/30, 02901 Námestovo
+                    Ortopedická ambulancia <br /> <strong>Mudr. Michal Prádel</strong> - Námestovo. <br /> <br /> Červeného Kríža 62/30, 02901 Námestovo
                 </Popup>
         </Marker>
     </MapContainer>
