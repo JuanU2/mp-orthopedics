@@ -14,7 +14,7 @@ export default function NavBar() {
           onClick={() => setIsOpen(false)}
         >
           <img src={Icon} className="h-8" alt="Logo" />
-          <span className="self-center text-2xl whitespace-nowrap text-white">
+          <span className="self-center text-lg sm:text-2xl whitespace-nowrap text-white">
             MUDr. Michal Prádel
           </span>
         </Link>

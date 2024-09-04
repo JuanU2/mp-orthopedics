@@ -18,7 +18,7 @@ const HomePage = () => {
         <h1 className='text-2xl md:text-3xl'>
             MP-ORTHOPEDICS
         </h1>
-            <img className="w-48 md:w-80" src={logo} />
+            <img className="w-48 md:w-80" src={logo} alt='Logo ambulancie' />
           <h2 className="text-xl md:text-2xl">
             ORTOPEDICKÁ AMBULANCIA <br/>NÁMESTOVO
           </h2>
