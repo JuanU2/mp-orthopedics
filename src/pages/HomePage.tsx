@@ -2,6 +2,8 @@ import logo from '../photos/logo.png'
 import ScrollToTop from '../components/ScrollTop';
 import OrdinacneHodiny from '@/components/OrdinacneHodiny';
 import LocationMap from '@/components/LocationMap';
+import { Person } from "schema-dts";
+import { helmetJsonLdProp } from "react-schemaorg";
 import { Helmet } from 'react-helmet';
 
 
@@ -9,6 +11,27 @@ const HomePage = () => {
   return (
     <div>
         <Helmet>
+            <script type='application/ld+json'>
+                {
+                    `{
+                        "@context": "http://schema.org",
+                        "@type": "MedicalClinic",
+                        "name": "MUDr. Michal Prádel",
+                        "url": "https://www.pradel.sk/",
+                        "logo": logo,
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Červeného Kríža 62/30",
+                            "addressLocality": "Námestovo",
+                            "addressRegion": "Žilinský kraj",
+                            "postalCode": "02901",
+                            "addressCountry": "SK"
+                        }
+                        "medicalSpecialty": "Orthopedic",
+                        "openingHours": ["Mo-Th 6:30-13:30", "Fr 7:00-14:00"],
+                    }`
+                }
+            </script>
             <link rel="canonical" href="https://www.pradel.sk/" />
             <title>MUDr. Michal Prádel - Ortopedická ambulancia Námestovo</title>
         </Helmet>
