@@ -14,7 +14,7 @@ export default function Reservation() {
         <link rel="canonical" href="https://www.pradel.sk/rezervacia" />
         <title>MUDr. Michal Prádel - Rezervácia časenky</title>
       </Helmet>
-      <main className="flex grid grid-cols-1 xl:grid-cols-2 gap-6 h-full p-6">
+      <main className="flex flex-col xl:grid xl:grid-cols-2 gap-6 h-full p-6">
         <div className="md:bg-gray-200 md:p-6 p-6 md:rounded-xl flex flex-col gap-6 justify-between align-center md:m-12">
         <h1 className="w-full flex items-center text-center xl:text-left xl:justify-start md:p-6 justify-center text-2xl md:text-4xl xl:underline">
           Rezervácia časenky
