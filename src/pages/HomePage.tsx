@@ -13,7 +13,7 @@ const HomePage = () => {
             <title>MUDr. Michal Prádel - Ortopedická ambulancia Námestovo</title>
         </Helmet>
       <ScrollToTop />
-      <main className="grid grid-cols-1 md:grid-cols-2 p-6 md:p-12 gap-6">
+      <main className="grid grid-cols-1 lg:grid-cols-2 p-6 lg:p-12 gap-6">
         <article className='flex flex-col justify-center items-center text-center'>
         <h1 className='text-2xl md:text-3xl'>
             MP-ORTHOPEDICS
@@ -24,7 +24,7 @@ const HomePage = () => {
           </h2>
         </article>
         <OrdinacneHodiny/>
-        <section className='md:col-span-2 p-2 md:p-6 text-center'>
+        <section className='lg:col-span-2 p-2 md:p-6 text-center'>
             <h1 className='p-6 text-2xl md:text-4xl'>
                 Lokalita
             </h1>
