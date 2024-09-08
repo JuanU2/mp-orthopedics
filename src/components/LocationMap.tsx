@@ -1,6 +1,6 @@
 import { MapContainer, TileLayer, Popup, Marker } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
-import Pin from "../photos/pin.png"
+import Pin from "../photos/pin.svg"
 import L from 'leaflet';
 
 const LocationMap = () => {
