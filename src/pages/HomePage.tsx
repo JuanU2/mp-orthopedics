@@ -1,4 +1,4 @@
-import logo from '../photos/logo.png'
+import logo from '../photos/logo.webp'
 import ScrollToTop from '../components/ScrollTop';
 import OrdinacneHodiny from '@/components/OrdinacneHodiny';
 import LocationMap from '@/components/LocationMap';

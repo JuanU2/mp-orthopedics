@@ -1,4 +1,4 @@
-import Icon from "../photos/logo.png";
+import Icon from "../photos/logo.webp";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
