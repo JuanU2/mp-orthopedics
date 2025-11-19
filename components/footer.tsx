@@ -34,7 +34,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#ordinacne-hodiny" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/#ordinacne-hodiny" className="text-muted-foreground hover:text-primary transition-colors">
                   Ordinačné hodiny
                 </Link>
               </li>
